@@ -7,8 +7,11 @@
   background-image: linear-gradient(#00000080, #5555d7), url("/assets/images/survey2.jpg");
   background-size: cover;
   background-position: center;
-  height: 200vh;
   padding-top: 10px;
+}
+
+.heading {
+  margin-bottom: 2rem;
 }
 
 .heading h1 {
@@ -28,14 +31,13 @@
 }
 
 .form-group {
-  justify-content: space-between;
-  flex-direction: column;
   width: 60%;
   font-weight: 100;
   color: white;
-  padding: "5vh 2rem 2rem 2rem";
+  padding: 5vh 4rem 4rem 4rem;
   border: navajowhite;
   background-color: #00000080;
+  height: 80%;
 }
 
 .answer {
