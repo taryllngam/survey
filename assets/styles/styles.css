@@ -33,12 +33,10 @@
   width: 60%;
   font-weight: 100;
   color: white;
-  padding: 5vh 2rem 2rem 2rem;
+  padding: "5vh 2rem 2rem 2rem";
   border: navajowhite;
   background-color: #00000080;
- 
 }
-
 
 .answer {
   display: flex;
@@ -62,7 +60,7 @@
 
 }
 
-.spacing {
+.spacing{
   margin-top: 4px;
   margin-bottom: 12px;
 }
@@ -93,15 +91,17 @@
   width: 98%;
   padding: 5px;
 }
+
 #textarea {
   padding-right: 48%;
   background-color: #fff;
   border: 10px solid var(--input-border);
   border-radius: 4px;
   width: 45%;
-  height:45%;
+  height: 45%;
   margin-left: 2%;
 }
+
 .submit {
   margin: 5%;
 }
