@@ -7,8 +7,11 @@
   background-image: linear-gradient(#00000080, #5555d7), url("/assets/images/survey2.jpg");
   background-size: cover;
   background-position: center;
-  height: 200vh;
   padding-top: 10px;
+}
+
+.heading {
+  margin-bottom: 2rem;
 }
 
 .heading h1 {
@@ -28,38 +31,33 @@
 }
 
 .form-group {
-  justify-content: space-between;
-  flex-direction: column;
-  width: 60%;
+  width: 45%;
   font-weight: 100;
   color: white;
-  padding: 5vh 2rem 2rem 2rem;
+  padding: 4% 7% 2px 6%;
   border: navajowhite;
   background-color: #00000080;
- 
+  height: 80%;
+  font-size: 20px;
 }
 
-
 .answer {
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
+  text-align: left;
   padding: 5px;
-  padding-left: 40%;
-  padding-right: 40%;
   margin: 4px 3px;
   border-radius: 5px;
+  justify-content: left;
 }
 
 #submit-button {
   background-color: #37af65;
   color: aliceblue;
   display: flex;
-  text-align: center;
-  align-items: center;
+  justify-content: center;
   padding: 15px;
-  padding-left: 45%;
-  padding-right: 45%;
-
+  width: 104%;
+  font-size: 18px;
 }
 
 .spacing {
@@ -78,30 +76,34 @@
 }
 
 .comments {
-  margin: auto;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   height: 30vh;
   display: flexbox;
 }
 
 #dropdown {
-  width: 98%;
+  width: 103%;
   padding: 5px;
+  color: #524c4c;
 }
 
 #choice {
-  width: 98%;
+  width: 103%;
   padding: 5px;
+  color: #524c4c;
 }
+
 #textarea {
   padding-right: 48%;
   background-color: #fff;
   border: 10px solid var(--input-border);
   border-radius: 4px;
-  width: 45%;
-  height:45%;
-  margin-left: 2%;
+  width: 55%;
+  height: 45%;
+  margin: 2% 2% 0 0;
+  text-align: left;
 }
+
 .submit {
-  margin: 5%;
+  margin: 4% 0 8%;
 }
