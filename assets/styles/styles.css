@@ -108,8 +108,3 @@
 .submit {
   margin: 4% 0 9%;
 }
-
-#number {
-  min: 6;
-  max: 99;
-}
