@@ -7,14 +7,12 @@
   background-image: linear-gradient(#00000080, #5555d7), url("/assets/images/survey2.jpg");
   background-size: cover;
   background-position: center;
-
   padding-top: 10px;
 }
 
 .heading {
   margin-bottom: 2rem;
 }
-
 
 .heading h1 {
   text-align: center;
@@ -33,7 +31,6 @@
 }
 
 .form-group {
-
   width: 45%;
   font-weight: 100;
   color: white;
@@ -51,7 +48,6 @@
   margin: 4px 3px;
   border-radius: 5px;
   justify-content: left;
-
 }
 
 #submit-button {
@@ -62,7 +58,6 @@
   padding: 15px;
   width: 104%;
   font-size: 18px;
-
 }
 
 .spacing {
@@ -87,7 +82,6 @@
 }
 
 #dropdown {
-
   width: 103%;
   padding: 5px;
   color: #524c4c;
@@ -99,13 +93,11 @@
   color: #524c4c;
 }
 
-
 #textarea {
   padding-right: 48%;
   background-color: #fff;
   border: 10px solid var(--input-border);
   border-radius: 4px;
-
   width: 55%;
   height: 45%;
   margin: 2% 2% 0 0;
