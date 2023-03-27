@@ -34,10 +34,11 @@
   width: 45%;
   font-weight: 100;
   color: white;
-  padding: 4% 9% 2px;
+  padding: 4% 7% 2px 6%;
   border: navajowhite;
   background-color: #00000080;
   height: 80%;
+  font-size: 19px;
 }
 
 .answer {
