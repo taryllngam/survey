@@ -13,19 +13,19 @@
         <h1>freeCodeCamp Survey Form</h1>
         <p>Thank you for taking the time to help us improve our platform</p>
          </div>
-        <form>
+        <form id="survey">
     <div class="form-group">
         <label>Name</label><br>
         <input class="answer" type="text" placeholder="enter your name"><br>
         <label>Email</label><br>
         <input class="answer" type="text" placeholder="enter your email"><br>
         <label>Age (optional)</label><br>
-        <input class="answer" type="text" placeholder="Age"><br>
+        <input class="answer" type="number" id="number" min="6" max="99" placeholder="Age"><br>
         <div class="box">
             <div class="spacing">
         <label>Which option best describes your current role?</label><br>
         <select id="dropdown" name="" >
-            <option value="select current role" selected disabled>select current role</option><br>
+            <option disabled selected value>select current role</option><br>
             <option value="Student">Student</option><br>
             <option value="Full time job">Full time job</option><br>
              <option value="Full time learner">Full time learner</option><br>
@@ -35,7 +35,7 @@
         </div>
         <div class="box">
             <label for="question">Would you recommend freeCodeCamp to friend?</label><br><br>
-            <label><input type="radio" name="Defnitely-Maybe-Not sure">Definitely</label><br><br>
+            <label><input type="radio" name="Defnitely-Maybe-Not sure" checked>Definitely</label><br><br>
             <label><input type="radio" name="Defnitely-Maybe-Not sure">Maybe</label><br><br>
             <label><input type="radio" name="Defnitely-Maybe-Not sure">Not sure</label><br><br>
         </div>
@@ -43,6 +43,7 @@
             <div class="options">
             <label>What is your favorite feature of freeCodeCamp?</label><br>
             <select id="choice">
+            <option disabled selected value>select an option</option>
             <option value="Challenges">Challenges</option>
             <option value="Projects">Projects</option>
             <option value="community">community</option>
@@ -68,10 +69,11 @@
             <div class="comments">
                 <label for="textarea">Any comments or suggestions?</label><br>
                 <textarea class="input" id="textarea"></textarea><br>
-              <div class="submit"><button id="submit-button">submit</button></div>
+              <div class="submit">
+                <button id="submit-button">submit</button>
+            </div>
             </div>
         </div>
-            <div class="submit">
             </div>
         </div>
         </div>

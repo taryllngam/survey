@@ -31,34 +31,34 @@
 }
 
 .form-group {
-  width: 60%;
+  width: 45%;
   font-weight: 100;
   color: white;
-  padding: 5%;
+  padding: 4% 9% 2px;
   border: navajowhite;
   background-color: #00000080;
   height: 80%;
+  
 }
 
 .answer {
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
+  text-align: left;
   padding: 5px;
-  padding-left: 40%;
-  padding-right: 40%;
   margin: 4px 3px;
   border-radius: 5px;
+  justify-content: left;
 }
 
 #submit-button {
   background-color: #37af65;
   color: aliceblue;
   display: flex;
-  text-align: center;
-  align-items: center;
+  justify-content: center;
   padding: 15px;
-  padding-left: 45%;
-  padding-right: 45%;
+  width: 104%;
+  font-size: 18px;
+
 }
 
 .spacing {
@@ -77,20 +77,21 @@
 }
 
 .comments {
-  margin: auto;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   height: 30vh;
   display: flexbox;
 }
 
 #dropdown {
-  width: 98%;
+  width: 103%;
   padding: 5px;
+  color: #524c4c;
 }
 
 #choice {
-  width: 98%;
+  width: 103%;
   padding: 5px;
+  color: #524c4c;
 }
 
 #textarea {
@@ -98,11 +99,17 @@
   background-color: #fff;
   border: 10px solid var(--input-border);
   border-radius: 4px;
-  width: 45%;
+  width: 55%;
   height: 45%;
-  margin-left: 2%;
+  margin: 2% 2% 0 0;
+  text-align: left;
 }
 
 .submit {
-  margin: 5%;
+  margin: 4% 0 9%;
+}
+
+#number {
+  min: 6;
+  max: 99;
 }
